@@ -1,0 +1,57 @@
+```gitignore
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+logs/*
+
+# Generated data
+data/cleaned/*
+!data/cleaned/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Model and temporary artifacts
+artifacts/
+*.pkl
+*.joblib
+*.model
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Docker overrides
+docker-compose.override.yml
+```
